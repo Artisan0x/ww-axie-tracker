@@ -41,6 +41,7 @@
     "@supabase/supabase-js": "^1.22.1",
     "axios": "^0.21.1",
     "bullmq": "^1.40.4",
+    "concurrently": "^7.1.0",
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
     "dayjs": "^1.10.6",
