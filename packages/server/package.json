@@ -11,7 +11,8 @@
     "start:server": "node ./dist/shared/http/server.js",
     "dev:queue": "NODE_ENV=development ts-node-dev --respawn --transpile-only -r tsconfig-paths/register ./src/shared/queue/index.ts",
     "dev:workers": "NODE_ENV=development ts-node-dev --respawn --transpile-only -r tsconfig-paths/register ./src/shared/queue/workers.ts",
-    "dev:server": "NODE_ENV=development ts-node-dev --respawn --transpile-only -r tsconfig-paths/register ./src/shared/http/server.ts"
+    "dev:server": "NODE_ENV=development ts-node-dev --respawn --transpile-only -r tsconfig-paths/register ./src/shared/http/server.ts",
+    "dev:start": "concurrently \"npm run dev:queue\" \"npm run dev:workers\" \"npm run dev:server\""
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
