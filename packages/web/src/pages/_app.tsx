@@ -85,7 +85,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
                 exit: 'fade-out',
               })}
             />
-            <TrackingScripts />
+            {/* <TrackingScripts /> */}
           </MainLayout>
         </ChakraProvider>
       </RecoilRoot>
