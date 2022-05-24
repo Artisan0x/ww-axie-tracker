@@ -36,11 +36,11 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <ChakraProvider theme={mainTheme}>
           <DefaultSeo
             title="Scholarship Tracker"
-            titleTemplate="EBC Tracker | %s"
+            titleTemplate="WW Scholar Tracker | %s"
             description="The best free scholarship management tool in Lunacia. Track your axie infinity scholars and axies with ease."
             canonical="https://axie.watch"
             openGraph={{
-              title: 'EBC Tracker',
+              title: 'Webblen Wizards Axie Infinity Scholar Tracker',
               locale: 'en-US',
               images: [
                 {
